@@ -1,6 +1,6 @@
 const Post = require('../../models/Post');
 
-module.exports{
+module.exports = {
     Query:{
         async getPosts(){
             try{
@@ -11,4 +11,4 @@ module.exports{
             }
         }
     }
-}
+};
